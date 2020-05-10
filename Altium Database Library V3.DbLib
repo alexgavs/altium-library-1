@@ -5,7 +5,7 @@ ConnectionString=Provider=SQLNCLI11.1;Integrated Security=SSPI;Persist Security 
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,16 +19,13 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Amplifiers - Audio
+LastFocusedTable=Memory
 [Table1]
 SchemaName=
 TableName=Amplifiers - Audio
 Enabled=True
 UserWhere=0
 UserWhereText=[Part Number] = '{Part Number}'
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=200|Footprint Path0=466|Footprint Path 20=107|Footprint Path 30=107|Footprint Ref0=175|Footprint Ref 20=101|Footprint Ref 30=101|Part Number0=95|Library Path0=325|Library Ref0=131|Comment0=80|ComponentLink1Description0=170|ComponentLink1URL0=930|ComponentLink2Description0=170|ComponentLink2URL0=527|ComponentLink3Description0=170|ComponentLink3URL0=131|ComponentLink4Description0=170|ComponentLink4URL0=131|ComponentLink5Description0=170|ComponentLink5URL0=131|ComponentLink6Description0=170|ComponentLink6URL0=131|Device Package0=131|Features0=397|LastUpdated0=109|Lifecycle Status0=100|Manufacturer0=104|Max Output Power x Channels @ Load0=221|Minimum Order0=104|Mounting Type0=102|Operating Temperature0=144|Output Type0=103|Package / Case0=131|Packaging0=76|PartId0=53|Part Status0=78|Price0=47|Series0=53|Supplier 10=75|Supplier Part Number 10=142|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Supplier 40=75|Supplier Part Number 40=142|Supplier 50=75|Supplier Part Number 50=142|Supplier 60=75|Supplier Part Number 60=142|Supplier Device Package0=147|Type0=47|Value0=52|Voltage - Supply0=108
 [Table2]
 SchemaName=
 TableName=Amplifiers - OP Amps and Buffer Amps
@@ -467,6 +464,9 @@ TableName=Memory
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=Footprint Path0=Up
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=194|Footprint Path0=458|Footprint Path 20=107|Footprint Path 30=107|Footprint Ref0=183|Footprint Ref 20=101|Footprint Ref 30=101|Part Number0=164|Library Path0=389|Library Ref0=173|Comment0=80|Access Time0=83|Clock Frequency0=107|ComponentLink1Description0=170|ComponentLink1URL0=965|ComponentLink2Description0=170|ComponentLink2URL0=665|ComponentLink3Description0=170|ComponentLink3URL0=131|ComponentLink4Description0=170|ComponentLink4URL0=449|ComponentLink5Description0=170|ComponentLink5URL0=131|ComponentLink6Description0=170|ComponentLink6URL0=131|Device Package0=177|LastUpdated0=109|Lifecycle Status0=100|Manufacturer0=188|Memory Format0=103|Memory Interface0=112|Memory Size0=118|Memory Type0=91|Minimum Order0=104|Mounting Type0=102|Operating Temperature0=144|Package / Case0=177|Packaging0=76|PartId0=53|Part Status0=78|Price0=47|Series0=123|Supplier 10=75|Supplier Part Number 10=168|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Supplier 40=75|Supplier Part Number 40=142|Supplier 50=75|Supplier Part Number 50=142|Supplier 60=75|Supplier Part Number 60=142|Supplier Device Package0=147|Technology0=88|Type0=47|Value0=52|Voltage - Supply0=108|Write Cycle Time - Word, Page0=177
 [Table75]
 SchemaName=
 TableName=Motor Drivers Controllers
