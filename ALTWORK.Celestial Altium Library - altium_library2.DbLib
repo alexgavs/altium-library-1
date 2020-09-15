@@ -2,7 +2,7 @@
 Version = 1.1
 
 [DatabaseLinks]
-ConnectionString=Provider=SQLNCLI11.1;Persist Security Info=False;User ID=sa;Password="wizsoft";Initial Catalog=ALTIUM;Data Source=10.0.0.22,1433;Initial File Name="";Server SPN=""
+ConnectionString = Provider=SQLNCLI11.1; User ID=alib_XHC5GPQVIEGC; Password="dWIGfI1oRmAhFC1Z"; Initial Catalog=altium_library; Data Source=db.altiumlibrary.com,1433; Initial File Name=""; Server SPN=""
 AddMode = 3
 RemoveMode = 1
 UpdateMode = 2
